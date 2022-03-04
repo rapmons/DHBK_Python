@@ -1,4 +1,4 @@
-from replit import clear
+
 #HINT: You can call clear() to clear the output in the console.
 from art import logo
 print(logo)
@@ -22,6 +22,6 @@ while not bidding_finished:
     should_continue=input("Are there any other bidders? Type 'yes'or 'no'\n")
     if should_continue=="no":
         bidding_finished=True
-        find_highest_bidder(bids)
+       
     elif should_continue=="yes":
-        clear()
+        print("out")
